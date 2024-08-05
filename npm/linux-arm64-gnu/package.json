@@ -1,0 +1,35 @@
+{
+  "name": "node-rbx-cookie-linux-arm64-gnu",
+  "version": "1.1.5",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "node-rbx-cookie.linux-arm64-gnu.node",
+  "files": [
+    "node-rbx-cookie.linux-arm64-gnu.node"
+  ],
+  "description": "Finds the .ROBLOSECURITY cookie from either a ROBLOSECURITY environment variable or the authenticated local Roblox Studio installation",
+  "keywords": [
+    "napi-rs",
+    "NAPI",
+    "N-API",
+    "Rust",
+    "node-addon",
+    "node-addon-api"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": "https://github.com/morgann1/node-rbx-cookie",
+  "libc": [
+    "glibc"
+  ]
+}
